@@ -1,0 +1,87 @@
+#!/bin/bash
+
+source "./themes/$1/setup.sh"
+
+declare -a all=( $(./render "$1") )
+
+declare -i line=0
+
+declare -i width=50
+declare -i height=22
+declare -i x_gap=15
+declare -i y_gap=0
+declare -i y_shift=35
+declare -i font_size=14
+
+# API used from theme's setup script
+preview_octet() {
+  local bg_kind="$1"
+  local fg_kind="$3"
+  local bg_color fg_color x y
+  local text
+  local index=0
+  local with_bg
+  line+=1
+  y="$(( $y_shift + $y_gap + ( $line - 1 ) * ( $y_gap + $height ) ))"
+  for i in {0..7}
+  do
+    x="$(( $x_gap + ($i * ( $x_gap + $width ) ) ))"
+    case $bg_kind in
+      abs)
+        bg_color="#$2"
+        text="[${text}]"
+        ;;
+      rel)
+        p="$(( $2 + $i ))"
+        bg_color="${all[$p]}"
+        with_bg=yes
+        ;;
+    esac
+    echo "    <rect x='$x' y='$(( $y - $font_size - 2 ))' width='$width' height='$height' fill='$bg_color'/>"
+    case $fg_kind in
+      abs)
+        index="$4"
+        fg_color="${all[$index]}"
+        text=$(printf "%03d" "$index")
+        ;;
+      rel)
+        index="$(( $4 + $i ))"
+        fg_color="${all[$index]}"
+        ;;
+    esac
+    text="$(printf "%03d" "$index")"
+    if [[ -z $with_bg ]]
+    then
+      text="[$text]"
+    fi
+    echo "    <text x='$(( $x + ($width / 2) ))' y='$y' fill='$fg_color' font-size='${font_size}px' font-family='monospace' font-weight='600' text-anchor='middle'> $text </text>"
+  done
+}
+
+# API used from theme's setup script
+preview_gap() {
+  y_shift+=$1
+}
+
+
+echo "<svg width=\"536px\" height=\"${theme_preview_height:-420}px\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">"
+
+echo "  <title>$theme_name</title>"
+echo "  <desc>$theme_name</desc>"
+echo "  <g id=\"theme\">"
+echo "    <rect x='0' y='0' width='100%' height='100%' fill='#$theme_background_color'/>"
+echo
+
+# preview function must be defined in theme's setup script
+case $(type -t theme_preview) in
+  function)
+    theme_preview
+    ;;
+  *)
+    >&2 echo 'preview function not defined'
+    exit 1
+    ;;
+esac
+
+echo '  </g>'
+echo '</svg>'
