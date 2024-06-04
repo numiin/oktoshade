@@ -1,0 +1,37 @@
+#!/bin/bash
+
+main() {
+  for octet_nr in `seq 1 $(( $theme_octets ))`
+  do
+    color_octet $(eval "echo \"\${theme_octet_${octet_nr}[@]}\"")
+  done
+}
+
+color_octet() {
+  local hex h_add s_add l_add
+  for c in {1..8}
+  do
+    color="$1"
+    h_add="$2"
+    s_add="$3"
+    l_add="$4"
+    shift 4
+    if [[ $h_add == 0 && $s_add == 0 && $l_add == 0 ]]
+    then
+      hex="#$color"
+    else
+      hex="$(./color-mod "$color" "$h_add" "$s_add" "$l_add")"
+    fi
+    # colorize in case output is attached to tty
+    if [[ -t 1 ]]
+    then
+      echo -e "\\e[48;2;$((16#${hex:1:2}));$((16#${hex:3:2}));$((16#${hex:5:2}))m$hex$(tput sgr0)"
+    else
+      echo "$hex"
+    fi
+  done
+}
+
+. "./themes/$1/setup.sh"
+
+main
