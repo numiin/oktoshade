@@ -1,0 +1,124 @@
+#!/bin/bash
+
+declare -i line
+declare -i width
+declare -i height
+declare -i x_gap
+declare -i y_shift
+declare -i font_size
+
+reset_preview() {
+  line=0
+  width=50
+  height=22
+  x_gap=15
+  y_shift=35
+  font_size=14
+}
+
+# API used from theme's setup script
+preview_octet() {
+  case $mode in
+    render)    preview_octet_render "$@" ;;
+    calculate) preview_octet_calculate "$@" ;;
+  esac
+}
+
+declare -i total_height=0
+
+preview_octet_calculate() {
+  line+=1
+  total_height="$(( $y_shift + ( $line - 1 ) * $height + 35 ))"
+}
+
+preview_octet_render() {
+  local bg_kind="$1"
+  local fg_kind="$3"
+  local bg_color fg_color x y
+  local text
+  local index=0
+  local with_bg
+  line+=1
+  y="$(( $y_shift + ( $line - 1 ) * $height ))"
+  for i in {0..7}
+  do
+    x="$(( $x_gap + ($i * ( $x_gap + $width ) ) ))"
+    case $bg_kind in
+      abs)
+        bg_color="#$2"
+        text="[${text}]"
+        ;;
+      rel)
+        p="$(( $2 + $i ))"
+        bg_color="${all[$p]}"
+        with_bg=yes
+        ;;
+    esac
+    echo "    <rect x='$x' y='$(( $y - $font_size - 2 ))' width='$width' height='$height' fill='$bg_color'/>"
+    case $fg_kind in
+      abs)
+        index="$4"
+        fg_color="${all[$index]}"
+        text=$(printf "%03d" "$index")
+        ;;
+      rel)
+        index="$(( $4 + $i ))"
+        fg_color="${all[$index]}"
+        ;;
+    esac
+    text="$(printf "%03d" "$index")"
+    if [[ -z $with_bg ]]
+    then
+      text="[$text]"
+    fi
+    echo "    <text x='$(( $x + ($width / 2) ))' y='$y' fill='$fg_color' font-size='${font_size}px' font-family='monospace' font-weight='600' text-anchor='middle'> $text </text>"
+  done
+}
+
+# API used from theme's setup script
+preview_gap() {
+  y_shift+=$1
+}
+
+main() {
+  case $(type -t theme_preview) in
+    function)
+      mode=calculate
+      reset_preview
+      theme_preview
+      ;;
+    *)
+      >&2 echo 'preview function not defined'
+      exit 1
+      ;;
+  esac
+
+  echo "<svg width=\"536px\" height=\"${total_height}px\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">"
+
+  echo "  <title>$theme_name</title>"
+  echo "  <desc>$theme_name</desc>"
+  echo "  <g id=\"theme\">"
+  echo "    <rect x='0' y='0' width='100%' height='100%' fill='#$theme_background_color'/>"
+  echo
+
+  # preview function must be defined in theme's setup script
+  case $(type -t theme_preview) in
+    function)
+      mode=render
+      reset_preview
+      theme_preview
+      ;;
+    *)
+      >&2 echo 'preview function not defined'
+      exit 1
+      ;;
+  esac
+
+  echo '  </g>'
+  echo '</svg>'
+}
+
+source "./themes/$1/setup.sh"
+declare -a all=( $(./render "$1") )
+
+main
