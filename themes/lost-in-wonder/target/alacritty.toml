@@ -1,0 +1,54 @@
+[colors]
+indexed_colors = [
+  { index = 16, color = "#212622" },
+  { index = 17, color = "#542a26" },
+  { index = 18, color = "#243829" },
+  { index = 19, color = "#3c3725" },
+  { index = 20, color = "#332f46" },
+  { index = 21, color = "#3c2a3b" },
+  { index = 22, color = "#253637" },
+  { index = 23, color = "#31322f" },
+  { index = 24, color = "#393a36" },
+  { index = 25, color = "#a55051" },
+  { index = 26, color = "#57744e" },
+  { index = 27, color = "#87704a" },
+  { index = 28, color = "#72698c" },
+  { index = 29, color = "#8c6370" },
+  { index = 30, color = "#477168" },
+  { index = 31, color = "#6e695e" },
+]
+
+[colors.normal]
+black   = "#000000"
+red     = "#c76b6d"
+green   = "#6c996f"
+yellow  = "#9c9463"
+blue    = "#9f899b"
+magenta = "#c7758f"
+cyan    = "#6c998f"
+white   = "#b09245"
+
+[colors.bright]
+black   = "#989180"
+red     = "#ff5910"
+green   = "#55b450"
+yellow  = "#c7b543"
+blue    = "#dd9dd1"
+magenta = "#f49a9c"
+cyan    = "#64beab"
+white   = "#c5ac6d"
+
+[colors.dim]
+black   = "#393a36"
+red     = "#a55051"
+green   = "#57744e"
+yellow  = "#87704a"
+blue    = "#72698c"
+magenta = "#8c6370"
+cyan    = "#477168"
+white   = "#6e695e"
+
+[colors.primary]
+background = "#282c23"
+foreground = "#b09245"
+

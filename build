@@ -1,0 +1,12 @@
+#!/bin/bash
+
+main() {
+  local theme_name="$1"
+
+  ./preview/colored-svg "$theme_name" > "./themes/$theme_name/preview.svg"
+  ./target/foot.sh      "$theme_name" > "./themes/$theme_name/target/foot.ini"
+  ./target/alacritty.sh "$theme_name" > "./themes/$theme_name/target/alacritty.toml"
+  ./target/iTerm2.sh    "$theme_name" > "./themes/$theme_name/target/iTerm2.plist"
+}
+
+main "$@"
