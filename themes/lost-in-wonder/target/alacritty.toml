@@ -1,0 +1,44 @@
+[colors]
+indexed_colors = [
+  { index = 16, color = "#1f2320" },
+  { index = 17, color = "#542a26" },
+  { index = 18, color = "#203727" },
+  { index = 19, color = "#3c371b" },
+  { index = 20, color = "#373064" },
+  { index = 21, color = "#472947" },
+  { index = 22, color = "#173d40" },
+  { index = 23, color = "#393a36" },
+  { index = 24, color = "#393a36" },
+  { index = 25, color = "#af414a" },
+  { index = 26, color = "#4d6435" },
+  { index = 27, color = "#7e643a" },
+  { index = 28, color = "#535393" },
+  { index = 29, color = "#984367" },
+  { index = 30, color = "#2d686c" },
+  { index = 31, color = "#6e685e" },
+]
+
+[colors.normal]
+black   = "#000000"
+red     = "#da626c"
+green   = "#6b9e61"
+yellow  = "#a29857"
+blue    = "#ad81b1"
+magenta = "#d2799e"
+cyan    = "#599786"
+white   = "#b69543"
+
+[colors.bright]
+black   = "#989180"
+red     = "#ff5910"
+green   = "#68ba45"
+yellow  = "#c6a83f"
+blue    = "#e19ce7"
+magenta = "#f58f9b"
+cyan    = "#4cc2a3"
+white   = "#cbb172"
+
+[colors.primary]
+background = "#282c24"
+foreground = "#b69543"
+
