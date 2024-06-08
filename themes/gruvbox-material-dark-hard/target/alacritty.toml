@@ -1,0 +1,70 @@
+[colors]
+indexed_colors = [
+  { index = 16, color = "#141617" },
+  { index = 17, color = "#3c1f1e" },
+  { index = 18, color = "#32361a" },
+  { index = 19, color = "#473c29" },
+  { index = 20, color = "#0d3138" },
+  { index = 21, color = "#4a263c" },
+  { index = 22, color = "#0d3138" },
+  { index = 23, color = "#373534" },
+  { index = 24, color = "#383838" },
+  { index = 25, color = "#ad4843" },
+  { index = 26, color = "#6b7538" },
+  { index = 27, color = "#956d2d" },
+  { index = 28, color = "#4b776e" },
+  { index = 29, color = "#b04a65" },
+  { index = 30, color = "#43704a" },
+  { index = 31, color = "#454545" },
+  { index = 32, color = "#000000" },
+  { index = 33, color = "#e78a4e" },
+  { index = 34, color = "#a9b665" },
+  { index = 35, color = "#d5a14d" },
+  { index = 36, color = "#7daea3" },
+  { index = 37, color = "#d3869b" },
+  { index = 38, color = "#89b482" },
+  { index = 39, color = "#a89984" },
+  { index = 40, color = "#757575" },
+  { index = 41, color = "#ff9666" },
+  { index = 42, color = "#b6cb4d" },
+  { index = 43, color = "#efab3e" },
+  { index = 44, color = "#60c7b1" },
+  { index = 45, color = "#f495b8" },
+  { index = 46, color = "#77c76b" },
+  { index = 47, color = "#b1a391" },
+]
+
+[colors.normal]
+black   = "#000000"
+red     = "#ea6962"
+green   = "#a9b665"
+yellow  = "#d8a657"
+blue    = "#7daea3"
+magenta = "#d3869b"
+cyan    = "#89b482"
+white   = "#a89984"
+
+[colors.bright]
+black   = "#7c6f6f"
+red     = "#ff8084"
+green   = "#b6cb4d"
+yellow  = "#f1bf6f"
+blue    = "#60c7b1"
+magenta = "#f495b8"
+cyan    = "#6bc78a"
+white   = "#b1a391"
+
+[colors.dim]
+black   = "#383838"
+red     = "#ad4843"
+green   = "#6b7538"
+yellow  = "#956d2d"
+blue    = "#4b776e"
+magenta = "#b04a65"
+cyan    = "#43704a"
+white   = "#454545"
+
+[colors.primary]
+background = "#1d2021"
+foreground = "#a89984"
+

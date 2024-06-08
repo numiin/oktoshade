@@ -1,0 +1,136 @@
+<svg width="536px" height="309px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>tokyonight-night</title>
+  <desc>tokyonight-night</desc>
+  <g id="theme">
+    <rect x='0' y='0' width='100%' height='100%' fill='#1a1b26'/>
+
+    <rect x='15' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='40' y='35' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [000] </text>
+    <rect x='80' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='105' y='35' fill='#f7768e' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [001] </text>
+    <rect x='145' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='170' y='35' fill='#9ece6a' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [002] </text>
+    <rect x='210' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='235' y='35' fill='#e0af68' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [003] </text>
+    <rect x='275' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='300' y='35' fill='#7aa2f7' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [004] </text>
+    <rect x='340' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='365' y='35' fill='#bb9af7' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [005] </text>
+    <rect x='405' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='430' y='35' fill='#61c5ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [006] </text>
+    <rect x='470' y='19' width='50' height='22' fill='#1a1b26'/>
+    <text x='495' y='35' fill='#c0caf5' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [007] </text>
+    <rect x='15' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='40' y='57' fill='#545e87' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [008] </text>
+    <rect x='80' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='105' y='57' fill='#ff9eb0' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [009] </text>
+    <rect x='145' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='170' y='57' fill='#aae56c' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [010] </text>
+    <rect x='210' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='235' y='57' fill='#f3bd6d' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [011] </text>
+    <rect x='275' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='300' y='57' fill='#a3c0ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [012] </text>
+    <rect x='340' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='365' y='57' fill='#d7c2ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [013] </text>
+    <rect x='405' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='430' y='57' fill='#94d8ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [014] </text>
+    <rect x='470' y='41' width='50' height='22' fill='#1a1b26'/>
+    <text x='495' y='57' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [015] </text>
+    <rect x='15' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='40' y='79' fill='#12141c' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [016] </text>
+    <rect x='80' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='105' y='79' fill='#6c1424' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [017] </text>
+    <rect x='145' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='170' y='79' fill='#2f401c' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [018] </text>
+    <rect x='210' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='235' y='79' fill='#493312' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [019] </text>
+    <rect x='275' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='300' y='79' fill='#10337f' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [020] </text>
+    <rect x='340' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='365' y='79' fill='#431c8d' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [021] </text>
+    <rect x='405' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='430' y='79' fill='#06466b' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [022] </text>
+    <rect x='470' y='63' width='50' height='22' fill='#1a1b26'/>
+    <text x='495' y='79' fill='#404b7d' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [023] </text>
+    <rect x='15' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='40' y='101' fill='#373d58' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [024] </text>
+    <rect x='80' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='105' y='101' fill='#ca2b48' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [025] </text>
+    <rect x='145' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='170' y='101' fill='#5d8137' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [026] </text>
+    <rect x='210' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='235' y='101' fill='#986c2a' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [027] </text>
+    <rect x='275' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='300' y='101' fill='#416fd2' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [028] </text>
+    <rect x='340' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='365' y='101' fill='#7f4eda' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [029] </text>
+    <rect x='405' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='430' y='101' fill='#0078bd' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [030] </text>
+    <rect x='470' y='85' width='50' height='22' fill='#1a1b26'/>
+    <text x='495' y='101' fill='#5b6bb3' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> [031] </text>
+    <rect x='15' y='157' width='50' height='22' fill='#12141c'/>
+    <text x='40' y='173' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='80' y='157' width='50' height='22' fill='#6c1424'/>
+    <text x='105' y='173' fill='#f7768e' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 001 </text>
+    <rect x='145' y='157' width='50' height='22' fill='#2f401c'/>
+    <text x='170' y='173' fill='#9ece6a' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 002 </text>
+    <rect x='210' y='157' width='50' height='22' fill='#493312'/>
+    <text x='235' y='173' fill='#e0af68' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 003 </text>
+    <rect x='275' y='157' width='50' height='22' fill='#10337f'/>
+    <text x='300' y='173' fill='#7aa2f7' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 004 </text>
+    <rect x='340' y='157' width='50' height='22' fill='#431c8d'/>
+    <text x='365' y='173' fill='#bb9af7' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 005 </text>
+    <rect x='405' y='157' width='50' height='22' fill='#06466b'/>
+    <text x='430' y='173' fill='#61c5ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 006 </text>
+    <rect x='470' y='157' width='50' height='22' fill='#404b7d'/>
+    <text x='495' y='173' fill='#c0caf5' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 007 </text>
+    <rect x='15' y='179' width='50' height='22' fill='#12141c'/>
+    <text x='40' y='195' fill='#545e87' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 008 </text>
+    <rect x='80' y='179' width='50' height='22' fill='#6c1424'/>
+    <text x='105' y='195' fill='#ff9eb0' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 009 </text>
+    <rect x='145' y='179' width='50' height='22' fill='#2f401c'/>
+    <text x='170' y='195' fill='#aae56c' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 010 </text>
+    <rect x='210' y='179' width='50' height='22' fill='#493312'/>
+    <text x='235' y='195' fill='#f3bd6d' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 011 </text>
+    <rect x='275' y='179' width='50' height='22' fill='#10337f'/>
+    <text x='300' y='195' fill='#a3c0ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 012 </text>
+    <rect x='340' y='179' width='50' height='22' fill='#431c8d'/>
+    <text x='365' y='195' fill='#d7c2ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 013 </text>
+    <rect x='405' y='179' width='50' height='22' fill='#06466b'/>
+    <text x='430' y='195' fill='#94d8ff' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 014 </text>
+    <rect x='470' y='179' width='50' height='22' fill='#404b7d'/>
+    <text x='495' y='195' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='15' y='236' width='50' height='22' fill='#373d58'/>
+    <text x='40' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='80' y='236' width='50' height='22' fill='#ca2b48'/>
+    <text x='105' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='145' y='236' width='50' height='22' fill='#5d8137'/>
+    <text x='170' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='210' y='236' width='50' height='22' fill='#986c2a'/>
+    <text x='235' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='275' y='236' width='50' height='22' fill='#416fd2'/>
+    <text x='300' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='340' y='236' width='50' height='22' fill='#7f4eda'/>
+    <text x='365' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='405' y='236' width='50' height='22' fill='#0078bd'/>
+    <text x='430' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='470' y='236' width='50' height='22' fill='#5b6bb3'/>
+    <text x='495' y='252' fill='#000000' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 000 </text>
+    <rect x='15' y='258' width='50' height='22' fill='#373d58'/>
+    <text x='40' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='80' y='258' width='50' height='22' fill='#ca2b48'/>
+    <text x='105' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='145' y='258' width='50' height='22' fill='#5d8137'/>
+    <text x='170' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='210' y='258' width='50' height='22' fill='#986c2a'/>
+    <text x='235' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='275' y='258' width='50' height='22' fill='#416fd2'/>
+    <text x='300' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='340' y='258' width='50' height='22' fill='#7f4eda'/>
+    <text x='365' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='405' y='258' width='50' height='22' fill='#0078bd'/>
+    <text x='430' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+    <rect x='470' y='258' width='50' height='22' fill='#5b6bb3'/>
+    <text x='495' y='274' fill='#e9ecfb' font-size='14px' font-family='monospace' font-weight='600' text-anchor='middle'> 015 </text>
+  </g>
+</svg>
